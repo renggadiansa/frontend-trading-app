@@ -26,7 +26,7 @@ export default function WebhookTester() {
 
   return (
     <div className="bg-white shadow-md rounded-md p-6">
-      <h2 className="text-2xl font-bold text-blue-700 mb-4">🧪 Simulasi Sinyal TradingView</h2>
+      <h2 className="text-2xl font-bold text-blue-700 mb-4">Simulasi Sinyal TradingView</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {["symbol", "plusDI", "minusDI", "adx", "timeframe"].map((key) => (
           <div key={key}>
